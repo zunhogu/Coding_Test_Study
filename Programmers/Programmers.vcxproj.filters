@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Level1">
+      <UniqueIdentifier>{f24cc1b5-642d-4331-bb92-750d6c8d16ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level2">
+      <UniqueIdentifier>{9e67d3b6-f829-42e8-b810-0b6cd80ada3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_05_정수 제곱근 판별.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_06_자연수 뒤집어 배열로 만들기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_07_문자열 내 p와 y의 개수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_08_하샤드 수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_09_정수 내림차순으로 배치하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_10_문자열을 정수로 바꾸기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_11_x만큼 간격이 있는 n개의 숫자.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_12_나머지가 1이 되는 수 찾기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_13_콜라츠 추측.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_14_두 정수 사이의 합.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_15_서울에서 김서방 찾기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_16_핸드폰 번호 가리기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_17_나누어 떨어지는 숫자 배열.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_18_제일 작은 수 제거하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_19_음양 더하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_20_가운데 글자 가져오기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_21_없는 숫자 더하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_22_수박수박수박수박.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_23_내적.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_24_문자열 내림차순으로 배치하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_25_문자열 다루기 기분.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_26_약수의 개수의 덧셈.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_27_행렬의 덧셈.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_28_부족한 금액 계산하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_29_직사각형 별찍기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_30_최대공약수와 최소공배수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_31_같은 숫자는 싫어.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_32_이상한 문자 만들기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_33_3진법 뒤집기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_34_예산.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_35_시저암호.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_36_[1차]비밀지도.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_37_최소직사각형.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_38_문자열 내 마음대로 정렬하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_39_K번째 수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_40_숫자 문자열과 영단어.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_41_두 개 뽑아서 더하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_42_2016년.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_43_폰켓몬.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_44_소수 찾기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_45_모의고사.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_46_소수 만들기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_47_실패율.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_48_[1차] 다트게임.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_49_로또의 최고 순위와 최저 순위.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_50_체육복.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_51_완주하지 못한 선수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_52_키패드 누르기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_53_크레인 인형뽑기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_54_신규 아이디 추천.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_55_성격 유형 검사하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_56_신고 결과 받기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_01_짝수와 홀수.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_02_평균 구하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_03_약수의 합.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv1\lv1_04_자릿수 더하기.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_42_숫자블록.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_01_최댓값과 최솟값.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_02_JadenCase 문자열 만들기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_03_이진 변환 반복하기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_04_최솟값 만들기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_05_올바른 괄호.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_06_숫자의 표현.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_07_피보나치 수.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_08_다음 큰 숫자.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_09_카펫.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_10_영어 끝말잇기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_11_짝지어 제거하기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_12_구명보트.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_13_N개의 최소공배수.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_14_예상 대진표.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_15_멀리 뛰기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_16_점프와 순간이동.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_17_[1차]캐시.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_18_행렬의 곱셈.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_19_H_Index.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\unity\coding_test\Programmers\Programmers\lv2\lv2_20_괄호 회전하기.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2_21_타겟넘버.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2_22_압축.cpp">
+      <Filter>Level2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
