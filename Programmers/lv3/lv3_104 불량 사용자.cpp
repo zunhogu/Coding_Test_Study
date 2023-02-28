@@ -56,15 +56,7 @@ int solution(vector<string> user_id, vector<string> banned_id) {
     vector<vector<string>> m;
     set<int> counts;
     makeMap(user_id, banned_id, m);
-    
-    for(int i=0; i<m.size(); i++)
-    {
-        for(int j=0; j<m[i].size(); j++)
-            cout << m[i][j] << " ";
-        cout << endl;
-    }
-    cout << endl;
-    
+
     dfs(0, user_id, m, 0);
     
     return answer;
