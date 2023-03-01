@@ -52,7 +52,6 @@ void dfs(int index, vector<string>& user_id, vector<vector<string>>& m, int resu
 
 int solution(vector<string> user_id, vector<string> banned_id) {
     int answer = 0;
-    
     vector<vector<string>> m;
     set<int> counts;
     makeMap(user_id, banned_id, m);
