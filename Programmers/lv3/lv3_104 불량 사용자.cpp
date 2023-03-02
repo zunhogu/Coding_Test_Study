@@ -35,7 +35,6 @@ void dfs(int index, vector<string>& user_id, vector<vector<string>>& m, int resu
         cout <<result << endl;
         return;
     }
-    
     for(int i=index; i<m.size()-1; i++)
     {
         for(int j=0; j<m[i].size(); j++)
