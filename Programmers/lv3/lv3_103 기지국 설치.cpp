@@ -7,7 +7,6 @@ int solution(int n, vector<int> stations, int w)
     int answer = 0;
     int offset = 2 * w +1;
     int dist = 0;
-    
     if(stations[0] - w > 0) 
     {
         dist = (stations[0] - w) - 1;
