@@ -1,63 +1,51 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <queue>
-#include <iostream>
-
+#include <set>
 using namespace std;
-
-bool isFull(map<string, int>& m)
-{
-    for(map<string, int>::iterator iter = m.begin(); iter != m.end(); iter++)
-        if(iter->second == 0) return false;
-    return true;
-}
 
 vector<int> solution(vector<string> gems) {
     vector<int> answer;
+    answer.push_back(0);
+    answer.push_back(0);
     
-    int front = 0, back = gems.size();
-    map<string, int> counts;
-    queue<string> q;
+    set<string> s;
+    int kind = 0;
     
-    for(int i=0; i<gems.size(); i++)
+    for(string str : gems)
+        s.insert(str);
+    kind = s.size();
+    
+    map<string, int> m;
+    int start=0, end=0;
+    int min_diff = 100001;
+    
+    while(1)
     {
-        map<string, int>::iterator iter = counts.find(gems[i]);
-        if(iter == counts.end())
-            counts.insert(make_pair(gems[i], 0));
-    }
-    
-    for(int i=gems.size()-1; i>=0; i--)
-    {
-        map<string, int>::iterator iter = counts.find(gems[i]);
-        if(iter->second == 0)
+		if (m.size() >= kind) 
         {
-            q.push(gems[i]);
-            iter->second++;
-        }
+			m[gems[start]]--; 
+			if (m[gems[start]] == 0)
+				m.erase(gems[start]);
+			start++;
+		}
+        else if(end == gems.size()) break;
         else
         {
-            while(q.front() == gems[i])
-            {
-                q.pop();
-                iter->second--;
-            }
-            if(!isFull(counts))
-            {
-                q.push(gems[i]);
-                iter->second++;
-            }
+            m[gems[end]]++;
+            end++;
         }
+        
+        if (m.size() == kind)
+        {
+			if (abs(end - start) < min_diff) 
+            {
+				min_diff = abs(end - start);
+				answer[0] = start + 1;
+                answer[1] = end;
+			}
+		}
     }
-    
-    while(!q.empty())
-    {
-        cout << q.front()<< " ";
-        q.pop();
-    }
-    
-    answer.push_back(front+1);
-    answer.push_back(back);
     
     return answer;
 }
