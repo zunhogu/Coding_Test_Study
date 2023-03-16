@@ -17,7 +17,6 @@ int solution(vector<int> sticker)
         dp[i] += sticker[i] - sticker[(i-1)%size];
         dp[i] += sticker[i] - sticker[(i+1)%size];
     }
-    
     for(int i=0; i<dp.size(); i++)
         cout << dp[i] << " ";
     cout << endl;
