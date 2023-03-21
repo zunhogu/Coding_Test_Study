@@ -4,7 +4,6 @@ using namespace std;
 int solution(vector<int> sticker)
 {
     int answer =0;
-    
     int size= sticker.size();
     if(size==1) return sticker[0];
     
