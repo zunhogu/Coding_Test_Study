@@ -40,6 +40,5 @@ int solution(vector<vector<string>> book_time) {
         
         book(start, end, rooms);
     }
-    
     return rooms.size();
 }
