@@ -1,22 +1,39 @@
 #include <iostream>
-#include <vector>
 
-int main(int argc, char* argv[])
+bool isInside(std::pair<int, int> point, std::pair<int, int> origin, int radius)
 {
-    int count;
-    std::vector<std::pair<int, int>> dp;
-    dp.push_back(std::make_pair(1, 0));
-    dp.push_back(std::make_pair(0, 1));
+    int val =(point.first - origin.first) * (point.first - origin.first) + (point.second - origin.second) * (point.second - origin.second);
+    if(val < radius * radius)
+        return true;
+    else 
+        return false;
+}
 
-    std::cin >> count;
+int main()
+{
+    int size;
+    std::cin >> size;
 
-    for (int i = 0; i < count; i++)
+    for(int i=0; i<size; i++)
     {
-        int tmp;
-        std::cin >> tmp;
-        for (int j = dp.size(); j <= tmp; j++)
-            dp.push_back(std::make_pair(dp[j-2].first + dp[j-1].first, dp[j - 2].second + dp[j - 1].second));
-        std::cout << dp[tmp].first << " " << dp[tmp].second << std::endl;
+        int n, cnt = 0;
+        std::pair<int, int> start, end;
+
+        std::cin >> start.first >> start.second >> end.first >> end.second;
+        std::cin >> n;
+
+        for(int j=0; j<n; j++)
+        {
+            std::pair<int, int> crd;
+            int radius;
+            std::cin >> crd.first >> crd.second >> radius;
+
+            if(isInside(start, crd, radius) && !isInside(end, crd, radius))
+                cnt++;
+            if(isInside(end, crd, radius) && !isInside(start, crd, radius))
+                cnt++;
+        }
+        std::cout << cnt << '\n';
     }
 
     return 0;
