@@ -6,7 +6,6 @@ int main()
 {
     int T;
     std::cin >> T;
-
     while(T--)
     {
         int N, K, W,pre[1000] = {0};
