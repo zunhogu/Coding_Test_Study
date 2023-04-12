@@ -8,6 +8,7 @@ int main()
 {
     int T;
     cin>>T;
+    
     while(T--)
     {
         string input;
