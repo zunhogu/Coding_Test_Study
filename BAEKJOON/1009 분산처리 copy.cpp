@@ -9,6 +9,7 @@ int main()
     {
         int a, b, val = 1;
         std::cin>>a>>b;
+        
 
         b = !(b % 4) ? 4 : b % 4;
         while(b--) val *= a;
