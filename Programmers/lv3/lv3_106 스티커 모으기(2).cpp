@@ -6,7 +6,6 @@ int solution(vector<int> sticker)
     int answer =0;
     int size= sticker.size();
     if(size==1) return sticker[0];
-    
     vector<int> dp1(size, 0), dp2(size, 0);
     
     dp1[0] = sticker[0];
