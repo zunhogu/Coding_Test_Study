@@ -19,7 +19,6 @@ int solution(vector<int> stones, int k) {
         for(int i=0; i<temp.size(); i++)
         {
             temp[i] = temp[i] - mid + 1 <= 0 ? 0 : temp[i] - mid + 1;
-            
             if(temp[i] == 0) 
                 zero_cnt++;
             else
