@@ -16,4 +16,5 @@ int main()
         regex pattern("(100+1+|01)+");
         cout<< (regex_match(input, pattern) ? "YES\n" : "NO\n");
     }
+    
 }   
