@@ -15,6 +15,5 @@ int solution(vector<int> sticker)
     
     for(int i=1; i<size; i++)
         dp2[i] = max(dp2[(i-2)%size] + sticker[i], dp2[(i-1)%size]);
-    
     return max(dp1[size-2], dp2[size-1]);
 }
